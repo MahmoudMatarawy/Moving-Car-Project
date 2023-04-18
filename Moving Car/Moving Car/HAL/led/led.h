@@ -3,7 +3,7 @@
  *
  * Created: 4/13/2023 11:43:45 PM
  *  Author: Mahmoud Sarhan
- *	EMAIL : Eng.mahmoud.adel94@gmail.comengma
+ *	EMAIL : Eng.mahmoud.adel94@gmail.com
  */ 
 
 
@@ -13,9 +13,9 @@
 
 #include "led_types.h"
 
-void LED_init(void);
-u8_en_ledErrorType LED_off(u8_en_ledIdType led);
-u8_en_ledErrorType LED_on(u8_en_ledIdType led);
+u8_en_ledErrorType LED_init(uint8_t u8_a_port , uint8_t u8_a_pin);
+u8_en_ledErrorType LED_off(uint8_t u8_a_port , uint8_t u8_a_pin);
+u8_en_ledErrorType LED_on(uint8_t u8_a_port , uint8_t u8_a_pin);
 
 
 
